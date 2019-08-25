@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bckblue3"
+    android:orientation="vertical">\
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp">
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.2"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+
+        android:src="@drawable/finallogo"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotoregular"
+            android:text="BUS ON-LINE"
+            android:textColor="#DEDEDE"
+            android:textSize="35sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="60dp"/>
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="4dp"
+            android:src="@drawable/line"
+            android:layout_gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="60dp"/>
+
+    </RelativeLayout>
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Select Your Gender :"
+    android:textSize="30sp"
+    android:layout_gravity="center"
+    android:layout_marginTop="40dp"
+    android:textColor="#DEDEDE"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="4dp"
+        android:src="@drawable/line"
+        android:layout_gravity="center"/>
+
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:id="@+id/radioGroup"
+    android:layout_marginTop="40dp">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:fontFamily="@font/robotolight"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#DEDEDE"
+        android:gravity="center"
+        android:outlineSpotShadowColor="#DFDFDF"
+        android:buttonTint="#DEDEDE"
+        android:id="@+id/male"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:fontFamily="@font/robotolight"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:text="Female"
+        android:buttonTint="#DEDEDE"
+        android:textColor="#DEDEDE"
+        android:id="@+id/female"/>
+</RadioGroup>
+    <Button
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/go"
+        android:background="@drawable/ic_arrow_forward_black_24dp">
+
+    </Button>
+
+
+
+
+
+</LinearLayout>
