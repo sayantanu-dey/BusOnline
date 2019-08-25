@@ -10,3 +10,6 @@ and execute 'run.py'
 
 To install the android app and test it on mobile :-
 go to android directory and download the apk file
+
+Do provide the permissions at runtime for it to run properly
+
